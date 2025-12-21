@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App {version}</title>
+    <style>
+        body {{
+            background-color: {bg_color};
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }}
+        .container {{
+            text-align: center;
+            background: rgba(0,0,0,0.2);
+            padding: 40px 60px;
+            border-radius: 10px;
+        }}
+        h1 {{
+            font-size: 3em;
+            margin-bottom: 10px;
+        }}
+        .version {{
+            font-size: 2em;
+        }}
+        .status {{
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 5px;
+            font-size: 1.2em;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My App</h1>
+        <div class="version">Version {version}</div>
+        <div class="status">{status}</div>
+    </div>
+</body>
+</html>
