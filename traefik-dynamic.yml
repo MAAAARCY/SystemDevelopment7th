@@ -11,6 +11,6 @@ http:
       weighted:
         services:
           - name: app-stable@docker
-            weight: 50
+            weight: 90
           - name: app-canary@docker
-            weight: 50
+            weight: 10
